@@ -1,0 +1,109 @@
+.fon1{
+    background-color:rgb(31, 30, 30);
+    margin: 0 auto;
+    background-image:url(osnovafon.jpg);
+    background-size:100vw;
+    
+}
+.bigbox{
+    display: flex;
+    justify-content: center;
+}
+header{
+    width: 80%;
+    height: 95px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  rgb(168, 168, 168);
+    border-radius: 10px;
+    display:grid;
+    grid-template-areas: 
+    " logo  gl gl ys ys con con pust"  
+   
+}
+.foto1{
+    width: 100px;
+    height: 100px;
+    
+}
+.box1{
+    grid-area: logo;
+    margin-bottom: 20%;
+   
+}
+.box2{
+    grid-area: gl;
+}
+.box3{
+    grid-area:ys ;
+}
+.box4{
+    grid-area: con;
+}
+.box5{
+    grid-area: pust;
+}
+.txt1{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.grid-yslugi{
+    display: grid;
+    grid-template-areas:"main1 main1 main1"  "main2 main3 main4" ;
+    gap: 10px;
+    width: 75%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.main1 {
+    border-radius: 10px;
+    grid-area: main1;
+    background-color:  rgb(168, 168, 168);
+}
+.main2{
+    border-radius: 10px;
+    grid-area: main2;
+    background-color:  rgb(168, 168, 168);
+}
+.main3{
+    border-radius: 10px;
+    grid-area: main3;
+    background-color:  rgb(168, 168, 168);
+}
+.main4{
+    border-radius: 10px;
+    grid-area: main4;
+    background-color:  rgb(168, 168, 168);
+}
+.tx1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace ;
+    text-align: center;
+    margin-top: 10%;
+    color:white;
+   
+    
+}
+
+ 
+
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+   
+    
+
+
